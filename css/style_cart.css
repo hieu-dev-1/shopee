@@ -1,0 +1,237 @@
+/* cart web */
+
+.cart--Firstly {
+    width: 100vw;
+    background-color: rgb(206, 239, 252);
+    
+}
+.cart--from {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart--body {
+  margin-top: 3vh;
+}
+.body--box {
+    height: 5vh;
+    border-radius: 3px;
+    border: rgb(92, 182, 255) 2px solid;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.cart--ship {
+    margin-left: 1.5vw;
+    color: rgb(28, 197, 197);
+}
+.cart--text {
+    margin-left: 1vw;
+}
+.shop--love span{
+    padding: 0 3px;
+    color: #fff;
+    background-color: rgb(238, 77, 45);
+    border-radius: 1.5px;
+    font-size: 12px;
+}
+.mess--icon i{
+  margin-left: 0.5vw;
+    color: rgb(238, 77, 45);
+}
+.box + .box {
+    margin-top: 1.5vh;
+}
+.body--box1 {
+    height: 7vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart--product {
+    min-width: 20%;
+    height: 20%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.box--check input {
+    width: 16px;
+    height: 16px;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+.cart--table {
+    width: 55%;
+    display: flex;
+    /* margin-right: 5vw; */
+    justify-content: space-between;
+}
+.table--price ,.table--number ,.table--money ,.table--operation {
+  flex: 1;
+  display: flex;
+}
+.body--box2 {
+  height: 40vh;
+  background-color: aliceblue;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+}
+.shop--contens {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  justify-content: space-between;
+}
+.contens--body {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.body--img img{
+  margin-left: 2vw;
+  height: 80px;
+  width: 80px;
+  border: rgb(238, 77, 45) 1px solid;
+  border-radius: 2px;
+}
+.name--product {
+  width: 65%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.product--type {
+  width: 15vw;
+}
+.product--type i {
+  margin-left: 0.5vw;
+  opacity: 0.8;
+}
+.price--text, .price--text__sale {
+  font-size: 13px;
+  font-weight: 500;
+}
+.price--text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.price--text__sale + .price--text {
+  margin-left: 0.5vw;
+}
+.table--number {
+  width: 8vw;
+  height: 30px;
+  cursor: pointer;
+}
+.number--reduce , .number--plus {
+  width: 2vw;
+  border-top: 1px cadetblue solid;
+  border-bottom: 1px cadetblue solid;
+}
+.number--reduce {
+  border-left: 1px cadetblue solid;
+}
+.number--plus {
+  border-right: 1px cadetblue solid;
+}
+.number--reduce span, .number--plus span {
+  
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 18px;
+}
+.number--input {
+  width: 4vw;
+  border: 1px cadetblue solid;
+}
+.number--input input {
+  margin-left: 35%;
+  width: 2vw;
+  outline: none;
+  background-color: aliceblue;
+  border: none;
+}
+.table--operation {
+  flex-direction: column;
+}
+.table--operation:hover span {
+  color: rgb(238, 77, 45);
+}
+.mess--icon>a {
+  text-decoration: none;
+  color: rgb(0, 0, 255);
+}
+
+/* body--box3 */
+.body--box3{
+  height: 25vh;
+  left: 6vw;
+  right: 6vw;
+  bottom: 0;
+  z-index: 100;
+  background-color: aliceblue;
+  display: block;
+  align-items: center;
+  position: fixed;
+  border-top: rgba(255, 0, 0, 0.329) 3px solid;
+  justify-content: space-between;
+}
+.cart-voucher {
+  height: 30%;
+  border-bottom: #fde198 1px solid;
+}
+.vocher--list {
+  height: 100%;
+  margin-left: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.voucher--code {
+  margin-right: 4vw;
+}
+.cart--buy {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.cart--buying { 
+  height: 4vh;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: rgb(238, 77, 45);
+}
+.cart--buying  span {
+  color: #fff;
+  padding: 8vh 5vw;
+  align-items: center;
+  
+}
+.cart--take, .cart--pay {
+  display: flex;
+}
+.cart--take {
+  width: 60%;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.cart--pay {
+  width: 40%;
+  justify-content: space-between;
+  margin-right: 3vw;
+}
+.pay--buy {
+  background-color: aliceblue;
+  border: none;
+  outline: none;
+  width: 5vw;
+  
+}
